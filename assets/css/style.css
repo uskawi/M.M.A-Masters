@@ -31,12 +31,26 @@ p {
   font-weight: 100;
   font-size: 1rem;
 }
+/* hr*/
+.top,
+.bottom {
+    width: 60%;
+    margin: 0 auto;
+    border: 2px solid #221111;
+}
 
 /* ---------------------------Colors--------------- */
 .bg-color-warning {
     background-color: darkorange;
 }
+.bg-color-lessons-description {
+   background-color: #000;
+   color: #fff;
+}   
 
+.bg-color-main-page {
+    background-color: #1d2327;
+}
 
 
 
@@ -50,6 +64,26 @@ p {
 }
 
 .navbar-dark .navbar-nav .nav-link {
+    color: #fb0808;
+}
+/* --------------------Buttons----------------------- */
+.btn-members-login {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+.btn-members-login:hover{
+    background-color: #e9dada;
+    color: #fb0808;
+    font-size: 20px;
+}
+.btn-lessons {
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+}
+.btn-lessons:hover {
+    background-color: #e9dada;
     color: #fb0808;
 }
 
@@ -150,17 +184,7 @@ li {
     font-weight: bolder;
 
 }
-/* --------------------Buttons----------------------- */
-.btn-members-login {
-    position: absolute;
-    right: 15px;
-    top: 10px;
-}
-.btn-members-login:hover{
-    background-color: #e9dada;
-    color: #fb0808;
-    font-size: 20px;
-}
+
 
 
 /* --------------------Welcome section----------------------- */
@@ -209,6 +233,9 @@ li {
   text-align: center;
  
 }
+
+/* --------------Css Tricks --------------- */
+/*---------------Begining-----------------*/
 .fact-image-container {
 
   padding-top: 10px;
@@ -217,6 +244,8 @@ li {
   display: block;
   position: relative;
 }
+
+
 
 .fact-image-container::after {
   content: "";
@@ -234,6 +263,7 @@ li {
   position: absolute;
   z-index: -1;   
 }
+/* ---------------------End ---------------------- */
 
 .fact-image-container ul {
     margin: 2% 0 0 5%;
@@ -285,19 +315,12 @@ li {
 
 }
 
-.top,
-.bottom {
-    width: 60%;
-    margin: 0 auto;
-    border: 2px solid #221111;
-}
-
 
 .testimonial-content {
   margin-top: 20px;
   color: #1b1818;
 }
-/* --------------------class Overview----------------------- */
+/* --------------------classes Overview----------------------- */
 .class-overview {
   margin-top: 50px;
   padding: 5%;
@@ -309,73 +332,114 @@ li {
 .classes-overview-content{
   text-align: justify;
 }
-/* --------------------Classes----------------------- */
-.classes-container {
-  width: 98%;
-  text-align: justify;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(12,fr);
-  grid-template-rows: repeat(12, fr);
- 
-}
+/* --------------------lessons----------------------- */
 
-  
-
-.bjj-class {
-  grid-area: 1/3/1/7;
-   text-align: justify;
-   padding: 0 5%;
+.lessons-container {
+     width: 90%;
+     text-align: justify;
+     margin: 30px auto; 
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(8, 130px);
+     row-gap: 30px;
 }
 .bjj-image {
-  grid-area: 1/7/1/11;
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 1;
+   grid-row-end: 3;
+  
 }
-.bjj-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.7;
+.bjj{
+   grid-column-start: 2;
+   grid-column-end: 4;
+   grid-row-start: 1;
+   grid-row-end: 3;
 }
-
-/* .boxings-grid-container {
-  grid-area: 2/1/2/2;
+.boxing-image {
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 3;
+   grid-row-end: 5;
 }
-.boxings-container {
-  width: 100%;
-  height: 250px;
-  display: grid;
+.boxing {
+   grid-column-start: 2;
+   grid-column-end: 4;
+   grid-row-start: 3;
+   grid-row-end: 5;
+}
+.muaythai-image {
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 5;
+   grid-row-end: 7;
+   
+}
+.muaythai {
+   grid-column-start: 2;
+   grid-column-end: 4;
+   grid-row-start: 5;
+   grid-row-end: 7;
+}
+.mma-image {
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 7;
+   grid-row-end: 9;
+}
+.mma {
+   grid-column-start: 2;
+   grid-column-end: 4;
+   grid-row-start: 7;
+   grid-row-end: 9;
+}
+.class-image {
+   width: 100%; 
+    height: 100%;
+    border: 2px sold #1a1a1a;
+    
+}
+.description{
   position: relative;
-  border: 1px solid black;
-  background-color:#fff;
-   */
-
-/* }
-.boxings-class {
-  position: absolute;
-  top:0;
-  right:0;
-  width: 50%;
-  height: 100%;
-  padding: 0 8%;
-  
-
-
 }
-.boxings-image {
-  position: absolute;
-  top:0; 
-  left:0;
-  width: 50%;
-  height: 100%;
-  
-
+.description h3{
+    padding-top: 5%;
+    padding-bottom: 2%;
 }
-.boxings-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.7;
+
+/*
+.lesson-box {
+ 
+   height: 350px;
+  
+}
+.class-description {
+  
+}
+..class-description  p{
+   
+}
+..class-description  h3 {
+   
+}
+
+.col-12 {
+    padding: 0;
+}
+
+
+ .class-image {
+    width: 300px; 
+    height: 300px;
+    object-fit: cover;
+    margin: 3%;
+} 
+/* 
+.image-box .class-image {
+    mar
 } */
+
+
 
 /* --------------------Footer----------------------- */
 .footer-container {
