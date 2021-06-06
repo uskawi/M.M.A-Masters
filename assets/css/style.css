@@ -2,60 +2,109 @@
 
 /* font-family: 'Exo', sans-serif; */
 /* font-family: 'Roboto', sans-serif */
-
-/* ---------------------------General-------------- */
+/* -----------------general-------------------- */
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
 
 .uppercase {
     text-transform: uppercase;
 }
-.nav-container{
-    position: absolute;
-}
-.heading {
-    letter-spacing: 2px;
-     margin-top: 20px;
 
+/* h3 hedings */
+.heading {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-align: center;
 }
+
+
+/* h3 hedings */
 
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Roboto', sans-serif;  
-  margin-block-end: 0;
+    font-family: 'Roboto', sans-serif;
+    margin-block-end: 0;
+}
+.margin-top {
+   margin-top: 30px;
 }
 
-p {
-  font-family: 'Exo', sans-serif;
-  font-weight: 100;
-  font-size: 1rem;
+img {
+    cursor: pointer;
 }
+
 /* hr*/
-.top,
-.bottom {
+.top-bottom {
     width: 60%;
-    margin: 0 auto;
+    margin: 20px auto;
     border: 2px solid #221111;
 }
 
-/* ---------------------------Colors--------------- */
+/* hr */
+
+
+.text-font {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.padding {
+    padding: 0 3%;
+}
+
+
+li {
+    color: #39130A;
+    font-weight: 500;
+}
+
+/* --------------------Colors----------- */
+.color-main {
+    color: #444444;
+}
+
 .bg-color-warning {
-    background-color: darkorange;
-}
-.bg-color-lessons-description {
-   background-color: #000;
-   color: #fff;
-}   
-
-.bg-color-main-page {
-    background-color: #1d2327;
+    background-color: #d40b0b;
 }
 
+.bg-color-lessons-cards {
+    background-color: #000;
+}
 
+.color-lessons-cards {
+    color: #fff;
+}
+
+.color-student-name {
+    color: #39130A;
+}
+
+.bg-color-click-her-icon {
+    color: #fb0808;
+}
+
+.color-big-text {
+    color: #444444;
+}
+
+.color-sm-text {
+    color: #fff;
+}
+
+.bg-color-footer {
+    background-color: #1a1a1a;
+    ;
+}
 
 /* --------------------------    bootstrap-------------- */
-
 .navbar-dark .navbar-brand {
     color: #fb0808;
     font-family: 'Exo', sans-serif;
@@ -66,28 +115,27 @@ p {
 .navbar-dark .navbar-nav .nav-link {
     color: #fb0808;
 }
+
 /* --------------------Buttons----------------------- */
 .btn-members-login {
     position: absolute;
     right: 15px;
     top: 10px;
 }
-.btn-members-login:hover{
+
+.btn-members-login:hover {
     background-color: #e9dada;
     color: #fb0808;
     font-size: 20px;
 }
-.btn-lessons {
-    position: absolute;
-    bottom: 5%;
-    left: 15%;
-}
+
 .btn-lessons:hover {
     background-color: #e9dada;
     color: #fb0808;
 }
 
-/* ---------------------------Header--------------- */
+
+/* ---------------------------Navbar--------------- */
 .logo {
     margin-left: 15px;
     margin-right: 100px;
@@ -111,58 +159,19 @@ p {
 }
 
 
-.burger span i {
-    color: #fb0808;
-}
-
-.logo:hover {
-   font-size: 30px;
-}
-
-
-.navmenu a:hover {
-    font-size: 25px;
-}
-li {
-  font-size: 16px;
-  color: #39130A;
-  font-weight: 500;
-}
-
-
-/* --------------------Warning----------------------- */
-
-.warning {
-    min-height: 50px;
-     max-height: 100px;
-     text-align: center;
-     border-radius: 4px;
-}
-
-.warning-header a {
-    color:black;
-    font-size: 300;
-    font-weight: 700;
-    font-family:  'Exo', sans-serif;
-    line-height: 50px;
-    letter-spacing: 2px;
-    text-decoration: none;
-    
-
-}
-
 
 /* --------------------Banner----------------------- */
 .banner-area {
-	width: 100%;
+    width: 100%;
     height: 500px;
     position: relative;
-	background-image: url(../images/7.jpg);
+    background-image: url(../images/header-img.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-	background-size: cover;
-	background-position: center center;
+    background-size: cover;
+    background-position: center center;
+    border-bottom: 4px solid #fb0808;;
 }
 
 .main-heading {
@@ -170,11 +179,12 @@ li {
     width: 300px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.7);
-    left:150px;
+    left: 150px;
     bottom: 100px;
     text-align: center;
 
 }
+
 .main-heading h5 {
     color: #fff;
     letter-spacing: 2px;
@@ -187,466 +197,364 @@ li {
 
 
 
+/* --------------------Warning----------------------- */
+
+.warning {
+    margin: 0 auto;
+    width: 42%;
+    min-height: 50px;
+    max-height: 100px;
+    text-align: center;
+    border-radius: 4px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.warning-header a {
+    color:#fff;
+    font-size: 300;
+    font-weight: 500;
+    font-family: 'Exo', sans-serif;
+    line-height: 50px;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+
+}
+
 /* --------------------Welcome section----------------------- */
 
-.welcome-to-mma-masters{
-  height: auto;
-  display: grid;
-  grid-template-columns: repeat(12, fr);
-  grid-template-rows: repeat(4, fr);
-
-}
-.grid-item {
-  text-align:justify;
-
-}
-.welcome-heading {
+#welcom-section {
     width: 100%;
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(12, fr);
+    grid-template-rows: repeat(12, fr);
 
 }
 
-.about-mmma-masters {
-  background-color: #EBF5E6;
+.welcome {
+    grid-area: 1 / 1 / 4 / 13;
 }
+
 .philosophy {
-    background-color: #fff;
-     /* #918987; */
+    grid-area: 4 / 1 / 7 / 13;
 }
-.gols {
-  background-color:  #EBF5E6;
+
+.mission {
+    grid-area: 7 / 1 / 10 / 13;
 }
+
 .focus {
-  background-color:#fff;
+    grid-area: 10 / 1 / 13 / 13;
 }
-.description {
-  padding: 0 10%;
-}
+
+
+
 
 /* --------------------Facts----------------------- */
-.facts-container{
-  width: 100%;
+.fact-image-container {
+
+    width: 100%;
+    min-height: 500px;
+    max-height: 980px;
+
+    /* This part of is credited to Front End Resource  Url(https://frontendresource.com/css-background-image-color/) */
+
+    background: url(../images/5.jpg) no-repeat 0, 0 #054b5f;
+    background-blend-mode: multiply;
+
+    /*   End  her */
+
+    background-size: cover;
+    border: 2px solid #c99090;
 
 
 }
+.facts-container {
+    width: 100%;
+}
+
 .fact-heading {
-  text-align: center;
- 
+    color: #fff;
 }
 
 /* --------------Css Tricks --------------- */
 /*---------------Begining-----------------*/
-.fact-image-container {
 
-  padding-top: 10px;
-  width: 100%;
-  max-height: 980px;
-  display: block;
-  position: relative;
+
+.facts {
+    margin: 0 2%;
 }
 
 
+.facts-list li {
+    font-weight: 700;
+    line-height: 3;
+    color: #fff;
 
-.fact-image-container::after {
-  content: "";
-  background: url(../images/gloves.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-  opacity: 0.8;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;   
 }
-/* ---------------------End ---------------------- */
-
-.fact-image-container ul {
-    margin: 2% 0 0 5%;
-}
-
-.fact-image-container ul li {
-
-  font-family: 'Exo', sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-   color: black;
-   line-height: 3;
-   
-  
- 
-} 
 
 /* --------------------Testimonial----------------------- */
 .testimonial-container {
-  width: 100%;
-  padding-bottom: 20px;
-  background-color:#EBF5E6;
- 
+    width: 100%;
 }
 
 .testimonial-headings {
-  width: 100%;
-  padding-top: 20px;
-  text-align: center;
+    width: 100%;
 }
 
-
-.testimonial-student {
-  padding: 0 10%;
-  text-align: justify;
+.student-testimonial {
+    margin: 0 2%;
 }
 
-.testimonial-student-name {
-    margin-left: 5px;
-    color: #39130A;
-    font-size: 16px;
-    font-weight:400;
-}
-.testimonial-student-name img{
-  display:inline;
-}
-.testimonial-student-name span {
-  margin-left: 20px;
-
+.student-name {
+    font-size: 20px;
+    font-weight: 700;
 }
 
-
-.testimonial-content {
-  margin-top: 20px;
-  color: #1b1818;
+.student-name span {
+    margin-left: 5%;
 }
-/* --------------------classes Overview----------------------- */
-.class-overview {
-  margin-top: 50px;
-  padding: 5%;
-  background-color: #fff;
-}
-.class-overview-heading {
-  text-align: center;
-}
-.classes-overview-content{
-  text-align: justify;
-}
-/* --------------------lessons----------------------- */
-
-.lessons-container {
-     width: 90%;
-     text-align: justify;
-     margin: 30px auto; 
-     display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     grid-template-rows: repeat(8, 130px);
-     row-gap: 30px;
-}
-.bjj-image {
-   grid-column-start: 1;
-   grid-column-end: 2;
-   grid-row-start: 1;
-   grid-row-end: 3;
-  
-}
-.bjj{
-   grid-column-start: 2;
-   grid-column-end: 4;
-   grid-row-start: 1;
-   grid-row-end: 3;
-}
-.boxing-image {
-   grid-column-start: 1;
-   grid-column-end: 2;
-   grid-row-start: 3;
-   grid-row-end: 5;
-}
-.boxing {
-   grid-column-start: 2;
-   grid-column-end: 4;
-   grid-row-start: 3;
-   grid-row-end: 5;
-}
-.muaythai-image {
-   grid-column-start: 1;
-   grid-column-end: 2;
-   grid-row-start: 5;
-   grid-row-end: 7;
-   
-}
-.muaythai {
-   grid-column-start: 2;
-   grid-column-end: 4;
-   grid-row-start: 5;
-   grid-row-end: 7;
-}
-.mma-image {
-   grid-column-start: 1;
-   grid-column-end: 2;
-   grid-row-start: 7;
-   grid-row-end: 9;
-}
-.mma {
-   grid-column-start: 2;
-   grid-column-end: 4;
-   grid-row-start: 7;
-   grid-row-end: 9;
-}
-.class-image {
-   width: 100%; 
-    height: 100%;
-    border: 2px sold #1a1a1a;
-    
-}
-.description{
-  position: relative;
-}
-.description h3{
-    padding-top: 5%;
-    padding-bottom: 2%;
-}
-
-/*
-.lesson-box {
- 
-   height: 350px;
-  
-}
-.class-description {
-  
-}
-..class-description  p{
-   
-}
-..class-description  h3 {
-   
-}
-
-.col-12 {
-    padding: 0;
-}
-
-
- .class-image {
-    width: 300px; 
-    height: 300px;
-    object-fit: cover;
-    margin: 3%;
-} 
-/* 
-.image-box .class-image {
-    mar
-} */
-
-
-
 /* --------------------Footer----------------------- */
 .footer-container {
-  padding: 20px 0;
-  height: 300px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  background-color: #1a1a1a;
-  justify-items: center;
-  align-items: center;
-}
-.facebook {
-  grid-area: 1/1/1/2;
+    
+    padding: 30px 0;
+    height: 330px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+
 }
 
-.instagram {
-  grid-area: 1/2/1/3;
-}
-.youtube {
-  grid-area: 1/3/1/4;
+   .message {
+        grid-area: 2/1/3/6;
+    }
+
+    .adress {
+        grid-area: 3/1/4/6;
+    }
+
+    .phon {
+        grid-area: 4/1/5/6;
+    }
+
+    .email {
+        grid-area: 5/1/6/6;
+    }
+
+    .copyright {
+        grid-area: 6/1/6/7;
+    }
+    .content p {
+    color: #fff;
 }
 
-.message {
-  grid-area: 2/2/2/3;
-}
-.adress {
-  grid-area: 3/1/3/2;
-}
-.phon {
-    grid-area: 3/2/3/3;
-}
-.email {
-  grid-area: 3/3/3/4;
-}
-.copyright {
-  grid-area: 4/2/4/3;
-}
-.text p{
-  color: #fff;
-}
 .social-media a i {
-  font-size: 180%;
-  color: #fff;
+    font-size: 180%;
+    color: #fff;
 }
-/* --------------------Media Queries----------------------- */
+
+
+
+/*---------------------Media Queries----------------------*/
+
 @media(max-width:380px) {
 
-.top {
-   width: 80%;
-   margin-bottom: 10px;
-   border: 1px;
- }
+    /* hr */
+    .top {
+        width: 80%;
+        margin-bottom: 10px;
+        border: 1px;
+        /* hr */
+    }
 }
 
 @media(min-width:380px) {
-  .top {
-    display: none;
-  }
 
+    /* hr */
+    /* .top {
+        display: none;
+    } */
+
+    /* hr */
 }
 
-@media(max-width: 576px){
-  h2,
-  h3,
-  h4,
-  h5 {
-   font-size: 1.8em;
-   font-weight: 600;
-  }
-  p {
-    font-size: 1.5em;
-    font-weight: 500;
-  }
-  li {
-    font-size: 1.5em;
-    color: #39130A;
-  }
+@media(max-width: 576px) {
 
+    /* banner  */
     .banner-area {
-      background-image: url(../images/fighter.jpg);
-   }
-   .main-heading {
-    height: 60px;
-    width: 100%;
-    top: 300px;
-    right: 0px;
-    left: 0;
-    background-color: transparent;
-  }
-  
-  .testimonial-student-name {
-      font-size: 2em;
-      font-weight:600;
-  }
-  .text p{
-    font-size: 1rem;
-  }
-
-}
-@media(min-width: 576px){
-    
-/* .warning {
-   height: 100px;
-   line-height: 1
-} */
-  .welcome-to-mma-masters{
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(12, fr);
-    grid-template-rows: repeat(4, fr);
-
-  }
-
-  .about-mmma-masters {
-    background-color: #EBF5E6;
-  }
-  .philosophy {
-      background-color: #fff;
-      
-  }
-  .gols {
-    background-color:  #EBF5E6;
-  }
-  .focus {
-    background-color:#fff;
-  }
-  .description {
-    padding: 0 10%;
-  }
-
-
-
-}
-@media(max-width:810px){
-
-}
-@media(max-width:992px){
-     .btn-members-login {
-         display: none;
+        background-image: url(../images/fighter.jpg);
     }
 
-      .navmenu {
-         margin-left: 5px;
-         margin-right: 15px;
-     }
-     .logo {
+    .main-heading {
+        height: 60px;
+        width: 100%;
+        top: 300px;
+        right: 0px;
+        left: 0;
+        background-color: transparent;
+    }
+
+}
+
+@media(min-width: 576px) {
+
+    /* General */
+    /* font size and weight */
+    .text-font {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .text {
+        text-align: justify;
+    }
+
+    .padding {
+        padding: 0 4%;
+    }
+    .margin-top {
+        margin-top: 50px;
+    }
+
+    /* welcom-section */
+    .welcome {
+        grid-area: 1 / 1 / 3 / 13;
+    }
+
+    .philosophy {
+        grid-area: 3 / 1 / 9 / 7;
+    }
+
+    .mission {
+        grid-area: 9 / 5 / 13 / 8;
+
+    }
+
+    .focus {
+        grid-area: 3 / 7 / 9 / 13;
+    }
+
+
+
+    .list-mission {
+        margin-top: 15%;
+    }
+
+    /* facts */
+    .fact-heading {
+        margin-top: 8%;
+    }
+
+    .facts ul {
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+}
+
+@media(max-width:992px) {
+
+    /* login button */
+    .btn-members-login {
+        display: none;
+    }
+
+    /* login button */
+
+    /* navbar */
+    .navmenu {
+        margin-left: 5px;
+        margin-right: 15px;
+    }
+
+    .logo {
         margin-left: 15px;
         margin-right: 20px;
-     }
-     .footer-container {
-       height: 330px;
-       width: 100%;
-       display: grid;
-       grid-template-columns: 1fr 1fr 1fr;
-       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-       justify-items: center;
-       align-items: center;
-     }
-     .message {
-      grid-area: 2/1/3/6;
-   }
-
-     .adress {
-        grid-area: 3/1/4/6;
-     }
-     .phon {
-         grid-area: 4/1/5/6;
-     }
-     .email {
-        grid-area: 5/1/6/6;
-     }
-     .copyright {
-        grid-area: 6/1/6/7;
-     }
     }
 
-  @media(min-width:992px) {
+    /* navbar */
+     
+/* warning */
+.warning {
+        width: 60%;
+    }
+}
+
+@media(min-width:992px) {
+
+    /* general */
+    .margin-top {
+        margin-top: 100px;
+    }
+
+    /* .navbar */
     .login {
-      display: none;
+        display: none;
     }
 
-     .welcome-to-mma-masters{
-      margin: 20px 0;
-      grid-template-columns: repeat(10, fr);
-      grid-template-rows: 1fr 1fr 1fr;
-
+    .welcome {
+        grid-area: 1 / 1 / 5 / 13;
     }
 
-
-
-    .about-mmma-masters {
-      background-color:  #fff;
-       grid-area: 1/1/1/13
-    }
     .philosophy {
-        grid-area: 2/1/5/5;
+        grid-area: 5 / 1 / 13 / 5;
+    }
 
+    .mission {
+        grid-area: 5 / 5 / 13 / 9;
     }
-    .gols {
-      background-color:  #fff;
-      grid-area: 2/5/5/8;
-    }
+
     .focus {
-      grid-area: 2/8/5/11;
-
+        grid-area: 5 / 9 / 13 / 13;
     }
+
+    .facts ul {
+        margin-left: 15%;
+        margin-top: 2%;
+    }
+
+    /* .navbar */
+    /* footer */
  
-  }
+.footer-container {
+  
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+
+}
+.facebook {
+    grid-area: 1/1/1/2;
+}
+
+.instagram {
+    grid-area: 1/2/1/3;
+}
+
+.youtube {
+    grid-area: 1/3/1/4;
+}
+
+.message {
+    grid-area: 2/2/2/3;
+}
+
+.adress {
+    grid-area: 3/1/3/2;
+}
+
+.phon {
+    grid-area: 3/2/3/3;
+}
+
+.email {
+    grid-area: 3/3/3/4;
+}
+
+.copyright {
+    grid-area: 4/2/4/3;
+}
+/* footer */
+}
