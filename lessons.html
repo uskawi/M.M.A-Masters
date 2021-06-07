@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <meta name="description" content="MMA-Master it's a world-class mixed martial arts gym located in Dublin 2 with the word best instructors and top-class equipment with a huge range of classes and a different schedule for amateur and professionals as we have a word champion training with us and many other professional fighters">
+    <meta name="description"
+        content="MMA-Master it's a world-class mixed martial arts gym located in Dublin 2 with the word best instructors and top-class equipment with a huge range of classes and a different schedule for amateur and professionals as we have a word champion training with us and many other professional fighters">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -20,8 +21,9 @@
     <header>
         <div class="nav-container">
             <nav class="navbar fixed-top avbar-expand-md navbar-expand-sm  navbar-dark bg-dark">
-                <a class="navbar-brand logo" href="index.html">M.M.A Masters</a>
-                <button class="navbar-toggler  burger" type="button" data-bs-toggle="collapse"
+                <a class="navbar-brand logo" href="index.html">M.M.A <span class="slash">/</span><span
+                        class="after-slash"> Masters</span></a>
+                <button class="navbar-toggler burger bg-color-navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span> <i class="fas fa-bars "></i></span>
@@ -29,10 +31,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ">
                         <li class="nav-item navmenu">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item navmenu">
-                            <a class="nav-link active" href="Lessons.html">Lessons</a>
+                            <a class="nav-link" href="lessons.html">Lessons</a>
                         </li>
                         <li class="nav-item navmenu">
                             <a class="nav-link" href="contact.html">Contact</a>
@@ -42,178 +44,188 @@
                             <a class="nav-link " href="#">Login</a>
                         </li>
                     </ul>
-                    <div class="nav-item ">
-                        <a href="/#" class="btn btn-danger  btn-members-login" data-bs-toggle="modal"
-                            data-bs-target="#loginModalLabel">Members
-                            login</a>
+                    <div class="nav-item">
+                        <a href="/#"> <button class="btn btn-danger  btn-members-login">Member Login</button></a>
                     </div>
                 </div>
             </nav>
         </div>
-
-        <!-- navbar -->
-        <!-- Banner -->
-
     </header>
-    <!-- <section>
-        <div class="banner">
-            <div class="banner-area">
-                <div class="main-heading">
-                    <h5 class="uppercase">M.m.a Masters the chapions Factory</h5>
+    <main>
+        <!-- lessons Overview -->
+        <section id="lessons-overview">
+            <div class="lessons-overview">
+                <div class="lessons-over-view-heading  margin-top-big">
+                    <h3 class="heading uppercase">
+                        Classes Overview
+                    </h3>
                 </div>
-            </div>
-        </div> -->
-    <!-- Banner -->
-    <!-- Classes Overview -->
-    <section>
-        <div class="classes-overview-container">
-            <div class="class-overview">
-                <div class="class-overview-heading">
-                    <h3 class="uppercase heading">Classes Overview</h3>
-                </div>
-                <hr class="bottom">
-                <div class="classes-overview-content">
+                <div class="text-font padding">
                     <p>
                         Whether you are just starting out or want to go pro, we have a
                         right program for you. Drawing on years of experience, we give
                         students an opportunity to practice at their own level and ability
                         while getting individual attention they need to succeed.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Classes Overview -->
-    <section>
-        <!-- Warnning  Free Trail class -->
-        <!-- <div class="warning bg-color-warning ">
-        <h5 class="warning-header">Book Your Free Trail Class Now!!</h5>
-      </div> -->
-        <!-- Warnning  Free Trail class -->
 
-        <!-- lessons  -->
-        <section>
-            <div class="lessons-container">
-                <div class="bjj-image">
-                    <!-- <img src="assets/images/3.jpg" class="class-image" alt="team" target="_blank"> -->
-                </div>
-                <div class="bjj description bg-color-lessons-description color-lessons-description">
-                    <h3>BJJ</h3>
-                    <p>Brazilian Jiu-Jitsu (BJJ) is one of the most potent, real-life
-                        fighting systems on the planet. It is a ground fighting martial
-                        art based on the simple premise that 95% of street fights end up
-                        on the ground. BJJ is a grappling-based martial art, utilizing
-                        controlling positions, joint locks, and chokes.
-                        <a href="contact.html"> <span> for more info click here<i class="fas fa-hand-point-left click-her bg-color-click-her-icon" aria-hidden="true"></i></span></a>
-                    </p>
-                    
-                </div>
-                <div class="boxing-image">
-                    <!-- <img src="assets/images/4.jpg" class="class-image" alt="" target="_blank"> -->
-                </div>
-                <div class="boxing description bg-color-lessons-description color-lessons-description">
-                    <h3 heading>Boxing</h3>
-                    <p>Boxing is one of the oldest and most efficient martial arts.
-                        Utilizing punches, footwork, and head movement, boxing is the
-                        sweet science of hitting without getting hit. Through proper
-                        body mechanics, boxing is as efficient as it is smooth in
-                        generating powerful punches and beautiful evasive defense.
-                    <a href="contact.html"> <span> for more info click here<i class="fas fa-hand-point-left click-her bg-color-click-her-icon" aria-hidden="true"></i></span></a>
-                    </p>
-                </div>
-                <div class="muaythai-image">
-                    <!-- <img src="assets/images/muaythai.jpg" class="class-image" alt=""> -->
-
-                </div>
-                <div class="muaythai description bg-color-lessons-description color-lessons-description ">
-                    <h3>Muay Thai</h3>
-                    <p>Muay Thai is one of the most powerful and effective martial arts
-                        in the world. Muay Thai is an ancient martial art of Thailand
-                        developed over thousands of years, known for its tremendous power,
-                        maximum efficiency, and raw simplicity. Muay Thai utilizes a
-                        beautiful symphony of kicks, punches, knees, and elbows with
-                        fluidity and grace. Muay Thai is often referred to as the
-                        "Art of Eight Limbs"
-                         <a href="contact.html"> <span> for more info click here<i class="fas fa-hand-point-left click-her bg-color-click-her-icon" aria-hidden="true"></i></span></a>
-                    </p>
-                </div>
-                <div class="mma-image">
-                    <img src="assets/images/mma.jpg" class="class-image" alt="">
-                </div>
-                <!-- <div class="mma description bg-color-lessons-description color-lessons-description"> -->
-                    <h3>M.M.A</h3>
-                    <p>
-                        Mixed Martial Arts (MMA), the fastest growing sport in the world,
-                        is a dynamic combination of the world’s most effective martial arts.
-                        Namely Muay Thai, Brazilian Jiu-Jitsu, Wrestling, and Boxing. Based on empirical
-                        evidence, most experts agree that a combination of Muay Thai, Brazilian Jiu-Jitsu,
-                        Wrestling, and Boxing creates the
-                        perfect skill set for the reality of professional fighting in the
-                        sport of Mixed Martial Arts (MMA).
-                        <a href="contact.html"> <span> for more info click here<i class="fas fa-hand-point-left click-her bg-color-click-her-icon" aria-hidden="true"></i></span></a>
                     </p>
                 </div>
             </div>
         </section>
-        
-        <!--  lessons  --> 
-        <!-- equipment  -->
-        <section>
-            <div class="equipment">
-
+        <!-- <section id="warning">
+            <-- Warnning  Free Trail class  -->
+            <!-- <div class="warning-container margin-top">
+                <div class="warning bg-color-warning margin-top">
+                    <h5 class="warning-header"><a href="contact.html">Book Your Free Trail Class Now!!</a>
+                    </h5>
+                </div>
+            </div>
+        </section> -->
+        <hr class="top-bottom">
+        <!-- Lessons -->
+        <section id="lessons">
+            <div class="lessons margin-top-small">
+                <h3 class="heading uppercase">Classes</h3>
+            </div>
+            <div class="lessons-container margin-top-small">
+                <div class="bjj-image lessons-image">
+                   <!-- Background Image -->
+                </div>
+                <div class="bjj bg-color-lessons">
+                    <div>
+                        <h3 class="heading uppercase lesson-heading"> bjj</h3>
+                    </div>
+                    <div class="text-lessons padding">
+                        <p>Brazilian Jiu-Jitsu (BJJ) is one of the most potent, real-life
+                            fighting systems on the planet. It is a ground fighting martial
+                            art based on the simple premise that 95% of street fights end up
+                            on the ground. BJJ is a grappling-based martial art, utilizing
+                            controlling positions, joint locks, and chokes.
+                            <a href="contact.html"> <span class="info"> for Contact click here<i
+                                        class="fas fa-hand-point-left click-her bg-color-click-her-icon"
+                                        aria-hidden="true"></i></span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="boxing-image lessons-image">
+                   <!-- Background Image -->
+                </div>
+                <div class="boxing bg-color-lessons">
+                    <div>
+                        <h3 class="heading uppercase lesson-heading"> boxing</h3>
+                    </div>
+                    <div class="text-lessons padding">
+                        <p>Boxing is one of the oldest and most efficient martial arts.
+                            Utilizing punches, footwork, and head movement, boxing is the
+                            sweet science of hitting without getting hit. Through proper
+                            body mechanics, boxing is as efficient as it is smooth in
+                            generating powerful punches and beautiful evasive defense.
+                            <a href="contact.html"> <span class="info"> for Contact click here<i
+                                        class="fas fa-hand-point-left click-her bg-color-click-her-icon"
+                                        aria-hidden="true"></i></span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="muaythai-image lessons-image">
+                    <!-- Background Image -->
+                </div>
+                <div class="muaythai bg-color-lessons">
+                    <div>
+                        <h3 class="heading uppercase lesson-heading"> Muay Thai</h3>
+                    </div>
+                    <div class="text-lessons padding">
+                        <p>Muay Thai is one of the most powerful and effective martial arts
+                            in the world. Muay Thai is an ancient martial art of Thailand
+                            developed over thousands of years, known for its tremendous power,
+                            maximum efficiency, and raw simplicity. Muay Thai utilizes a
+                            beautiful symphony of kicks, punches, knees, and elbows with
+                            fluidity and grace. Muay Thai is often referred to as the
+                            "Art of Eight Limbs"
+                            <a href="contact.html"> <span  class="info"> for Contact click here<i
+                                        class="fas fa-hand-point-left click-her bg-color-click-her-icon"
+                                        aria-hidden="true"></i></span></a>
+                        </p>
+                        </p>
+                    </div>
+                </div>
+                <div class="mma-image lessons-image">
+                  <!-- Background Image -->
+                </div>
+                <div class="mma bg-color-lessons">
+                    <div>
+                        <h3 class="heading uppercase lesson-heading"> MMA</h3>
+                    </div>
+                    <div class="text-lessons padding">
+                        <p>Mixed Martial Arts (MMA), the fastest growing sport in the world,
+                            is a dynamic combination of the world’s most effective martial arts.
+                            Namely Muay Thai, Brazilian Jiu-Jitsu, Wrestling, and Boxing. Based on empirical
+                            evidence, most experts agree that a combination of Muay Thai, Brazilian Jiu-Jitsu,
+                            Wrestling, and Boxing creates the
+                            perfect skill set for the reality of professional fighting in the
+                            sport of Mixed Martial Arts (MMA).
+                            <a href="contact.html"> <span class="info"> for Contact click here<i
+                                        class="fas fa-hand-point-left click-her bg-color-click-her-icon"
+                                        aria-hidden="true"></i></span></a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- equipment  -->
-        <!-- footer -->
+        <section id="equipment">
+            <div class="equipment margin-top">
+                <div>
+                    <h3 class="heading uppercase">Equipment</h3>
+                </div>
+                <div class="equipment-description padding">
+                    <p class="text-fonts">Like any sport, Mixed Martial Arts (MMA) requires special equipment, largely to protect yourself during your training sessions. Important supplies and gear that you should gather before starting your MMA training include:   
+                    </p>
+                    <ol>
+                        <li>Boxing gloves: Essential for working on strikes, such as jabs, hooks, and uppercuts.</li>
+                        <li>Handwraps: Good for protecting your hands when training or fighting competitively.</li>
+                        <li>Headgear: Used for sparring to protect the skull from harsh blows.</li>
+                        <li>Mouthpiece: Critical for protecting your teeth while competing and training. Try conditioning      while wearing a mouthpiece to get used to wearing one.</li>
+                    </ol>
+                </div>
+
+            </div>
+        </section>
         <footer>
-            <div class="footer-container">
+            <div class="footer-container bg-color-footer margin-top">
                 <div class="facebook social-media">
-                    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i class="fab fa-facebook-f"
+                            aria-hidden="true"></i></a>
                 </div>
                 <div class="instagram social-media">
-                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"
+                            aria-hidden="true"></i></a>
                 </div>
                 <div class="youtube social-media">
-                    <a href="https://www.youtube.com" target="_blank" rel="noreferrer"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com" target="_blank" rel="noreferrer"><i class="fab fa-youtube"
+                            aria-hidden="true"></i></a>
                 </div>
-                <div class="message text">
+                <div class="message content">
                     <p class="to-fallow-message">Connect With Us</p>
                 </div>
-                <div class="adress text">
+                <div class="adress content">
                     <p>23 Mount Carmel Avenue Dublin2 </p>
                 </div>
-                <div class="phon text">
+                <div class="phon content">
                     <p>Phon 015552346</p>
                 </div>
-                <div class="email text">
+                <div class="email content">
                     <p>Email : MMA-Master@email.com</p>
                 </div>
-                <div class="copyright text">
+                <div class="copyright content">
                     <p>Copyright Reserved M.M.A Masters</p>
                 </div>
             </div>
         </footer>
+
+        <!-- equipment  -->
+        <!-- footer -->
+
         <!-----Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 
         <!-- Modal -->

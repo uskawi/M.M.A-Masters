@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
+    font-family: 'Exo', sans-serif;
 }
 
 .uppercase {
@@ -31,10 +32,21 @@ h3,
 h4,
 h5 {
     font-family: 'Roboto', sans-serif;
-    margin-block-end: 0;
+    /* margin-block-end: 0; */
 }
+
+/* .margint-top class will be changed from 30px to 100px in media queries for sceen with minimum width 992px */
 .margin-top {
-   margin-top: 30px;
+    margin-top: 30px;
+}
+
+/* .margint-top-small class will remain unchanged  */
+.margin-top-small {
+    margin-top: 30px;
+}
+
+.margin-top-big {
+    margin-top: 100px;
 }
 
 img {
@@ -66,10 +78,21 @@ li {
     font-weight: 500;
 }
 
+
 /* --------------------Colors----------- */
+
 .color-main {
     color: #444444;
 }
+
+.bg-color-navbar-toggler {
+    background-color: #d40b0b;
+}
+
+.color-navbar-toggler {
+    color: black;
+}
+
 
 .bg-color-warning {
     background-color: #d40b0b;
@@ -99,9 +122,12 @@ li {
     color: #fff;
 }
 
+.bg-color-lessons {
+    background-color: #000000;
+}
+
 .bg-color-footer {
     background-color: #1a1a1a;
-    ;
 }
 
 /* --------------------------    bootstrap-------------- */
@@ -123,11 +149,21 @@ li {
     top: 10px;
 }
 
+.logo:hover {
+    font-size: 25px;
+
+}
+
 .btn-members-login:hover {
     background-color: #e9dada;
     color: #fb0808;
     font-size: 20px;
 }
+
+.navmenu a:hover {
+    font-size: 25px;
+}
+
 
 .btn-lessons:hover {
     background-color: #e9dada;
@@ -135,10 +171,19 @@ li {
 }
 
 
+
 /* ---------------------------Navbar--------------- */
 .logo {
     margin-left: 15px;
     margin-right: 100px;
+}
+
+.after-slash {
+    color: #c2bbbb;
+}
+
+.slash {
+    color: #fff;
 }
 
 
@@ -154,7 +199,6 @@ li {
 }
 
 .navmenu a {
-    font-family: 'Exo', sans-serif;
     font-size: 19px;
 }
 
@@ -171,7 +215,8 @@ li {
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
-    border-bottom: 4px solid #fb0808;;
+    border-bottom: 4px solid #fb0808;
+    ;
 }
 
 .main-heading {
@@ -201,7 +246,7 @@ li {
 
 .warning {
     margin: 0 auto;
-    width: 42%;
+    width: 50%;
     min-height: 50px;
     max-height: 100px;
     text-align: center;
@@ -211,7 +256,7 @@ li {
 }
 
 .warning-header a {
-    color:#fff;
+    color: #fff;
     font-size: 300;
     font-weight: 500;
     font-family: 'Exo', sans-serif;
@@ -270,6 +315,7 @@ li {
 
 
 }
+
 .facts-container {
     width: 100%;
 }
@@ -315,9 +361,10 @@ li {
 .student-name span {
     margin-left: 5%;
 }
+
 /* --------------------Footer----------------------- */
 .footer-container {
-    
+
     padding: 30px 0;
     height: 330px;
     width: 100%;
@@ -328,26 +375,27 @@ li {
 
 }
 
-   .message {
-        grid-area: 2/1/3/6;
-    }
+.message {
+    grid-area: 2/1/3/6;
+}
 
-    .adress {
-        grid-area: 3/1/4/6;
-    }
+.adress {
+    grid-area: 3/1/4/6;
+}
 
-    .phon {
-        grid-area: 4/1/5/6;
-    }
+.phon {
+    grid-area: 4/1/5/6;
+}
 
-    .email {
-        grid-area: 5/1/6/6;
-    }
+.email {
+    grid-area: 5/1/6/6;
+}
 
-    .copyright {
-        grid-area: 6/1/6/7;
-    }
-    .content p {
+.copyright {
+    grid-area: 6/1/6/7;
+}
+
+.content p {
     color: #fff;
 }
 
@@ -356,30 +404,95 @@ li {
     color: #fff;
 }
 
+/*---------------------lessons.html----------------------*/
+
+/*---------------------Lessons Overview----------------------*/
+.text-lessons {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 5%;
+}
+
+.lessons-image {
+    height: 250px;
+}
+
+.lesson-heading {
+    color: #fff;
+    margin-top: 8%;
+}
+
+.lessons-container p {
+    margin-bottom: 0;
+}
+
+.lessons-container {
+    display: grid;
+    grid-template-columns: repeat(12, fr);
+    grid-template-rows: repeat(16, fr);
+}
+
+.bjj-image {
+    grid-area: 1/1/3/13;
+    background: url(../images/5.jpg) no-repeat 0, 0 #054b5f;
+    background-blend-mode: multiply;
+}
+
+.bjj {
+    grid-area: 3/ 1/5/13;
+}
+
+.boxing-image {
+    grid-area: 5/ 1/ 7/13;
+    background: url(../images/5.jpg) no-repeat 0, 0 #054b5f;
+    background-blend-mode: multiply;
+}
+
+.boxing {
+    grid-area: 7/ 1/ 9/13;
+}
+
+.muaythai-image {
+    grid-area: 9/ 1/ 11/13;
+    background: url(../images/5.jpg) no-repeat 0, 0 #054b5f;
+    background-blend-mode: multiply;
+}
+
+.muaythai {
+    grid-area: 11/ 1/ 13/13;
+}
+
+.mma-image {
+    grid-area: 13/ 1/ 15/13;
+    background: url(../images/5.jpg) no-repeat 0, 0 #054b5f;
+    background-blend-mode: multiply;
+}
+
+.mma {
+    grid-area: 15/ 1/ 17/13;
+}
+
+.click-her {
+    font-size: 160%;
+    margin-left: 2%;
+}
+
+.info {
+    display: flex;
+    margin-left: 5%;
+}
+.text-lessons a {
+    text-decoration: none;
+}
+
+
 
 
 /*---------------------Media Queries----------------------*/
 
-@media(max-width:380px) {
 
-    /* hr */
-    .top {
-        width: 80%;
-        margin-bottom: 10px;
-        border: 1px;
-        /* hr */
-    }
-}
 
-@media(min-width:380px) {
-
-    /* hr */
-    /* .top {
-        display: none;
-    } */
-
-    /* hr */
-}
 
 @media(max-width: 576px) {
 
@@ -395,6 +508,11 @@ li {
         right: 0px;
         left: 0;
         background-color: transparent;
+    }
+
+    /* warning */
+    .warning {
+        width: 90%;
     }
 
 }
@@ -415,6 +533,7 @@ li {
     .padding {
         padding: 0 4%;
     }
+
     .margin-top {
         margin-top: 50px;
     }
@@ -453,6 +572,21 @@ li {
         margin-top: 2%;
     }
 
+    /* Lessons */
+    .lessons-image {
+        height: 300px;
+        background-size: cover;
+    }
+
+    .lesson-heading {
+        margin-top: 2%;
+    }
+
+    .info {
+        margin: 2% 0;
+    }
+
+
 }
 
 @media(max-width:992px) {
@@ -476,11 +610,10 @@ li {
     }
 
     /* navbar */
-     
-/* warning */
-.warning {
-        width: 60%;
-    }
+    /* lessons */
+
+
+
 }
 
 @media(min-width:992px) {
@@ -518,43 +651,114 @@ li {
 
     /* .navbar */
     /* footer */
- 
-.footer-container {
-  
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    justify-items: center;
 
-}
-.facebook {
-    grid-area: 1/1/1/2;
-}
+    .footer-container {
 
-.instagram {
-    grid-area: 1/2/1/3;
-}
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-items: center;
 
-.youtube {
-    grid-area: 1/3/1/4;
-}
+    }
 
-.message {
-    grid-area: 2/2/2/3;
-}
+    .facebook {
+        grid-area: 1/1/1/2;
+    }
 
-.adress {
-    grid-area: 3/1/3/2;
-}
+    .instagram {
+        grid-area: 1/2/1/3;
+    }
 
-.phon {
-    grid-area: 3/2/3/3;
-}
+    .youtube {
+        grid-area: 1/3/1/4;
+    }
 
-.email {
-    grid-area: 3/3/3/4;
-}
+    .message {
+        grid-area: 2/2/2/3;
+    }
 
-.copyright {
-    grid-area: 4/2/4/3;
-}
-/* footer */
+    .adress {
+        grid-area: 3/1/3/2;
+    }
+
+    .phon {
+        grid-area: 3/2/3/3;
+    }
+
+    .email {
+        grid-area: 3/3/3/4;
+    }
+
+    .copyright {
+        grid-area: 4/2/4/3;
+    }
+
+    /* footer */
+    /* lessons */
+    .lessons-container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-rows: repeat(12, fr);
+        row-gap: 30px;
+
+    }
+
+
+
+
+    .lessons-image {
+        width: 300px;
+
+    }
+
+    .bjj-image {
+        grid-area: 1/1/3/5;
+    }
+
+    .bjj {
+        grid-area: 1/5/3/13;
+        position: relative;
+    }
+
+    .boxing-image {
+        grid-area: 3/1/6/5;
+    }
+
+    .boxing {
+        grid-area: 3/ 5/ 6/13;
+        position: relative;
+
+    }
+
+    .muaythai-image {
+        grid-area: 6/1/9/5;
+    }
+
+    .muaythai {
+        grid-area: 6/ 5/ 9/13;
+        position: relative;
+    }
+
+    .mma-image {
+        grid-area: 9/ 1/ 13/5;
+    }
+
+    .mma {
+        grid-area: 9/ 5/ 13/13;
+        position: relative;
+    }
+
+    .info {
+        position: absolute;
+        margin-left: 0;
+        bottom: 20px;
+        left: 30px;
+
+    }
+
+    .click-her {
+        margin-left: 0;
+        position: relative;
+        left: 5%;
+    }
+
 }
