@@ -48,10 +48,6 @@ h5 {
     margin-top: 100px;
 }
 
-img {
-    cursor: pointer;
-}
-
 /* hr*/
 .top-bottom {
     width: 60%;
@@ -185,6 +181,15 @@ li {
     margin-left: 15px;
 }
 
+p.nav-link {
+    font-size: 19px;
+    cursor: pointer;
+}
+
+p.nav-link:hover {
+    font-size: 25px;
+}
+
 .navmenu a {
     font-size: 19px;
 }
@@ -238,7 +243,6 @@ li {
 
 .warning-header a {
     color: #fff;
-    font-size: 300;
     font-weight: 500;
     font-family: 'Exo', sans-serif;
     line-height: 50px;
@@ -516,6 +520,9 @@ li {
 
 /* Modal */
 
+.forgot-password small span {
+    display: block;
+}
 
 /*---------------------Media Queries----------------------*/
 
