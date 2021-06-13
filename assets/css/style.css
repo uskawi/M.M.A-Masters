@@ -162,6 +162,7 @@ li {
 .logo {
     margin-left: 2.5vw;
 }
+
 /* Slash separate the log into 2 parts*/
 .slash {
     color: #fff;
@@ -193,6 +194,7 @@ p.nav-link:hover {
 .navmenu a {
     font-size: 19px;
 }
+
 .navmenu a:hover {
     font-size: 25px;
 }
@@ -202,9 +204,9 @@ p.nav-link:hover {
 /* --------------------Banner----------------------- */
 .banner-area {
     width: 100%;
-    height: 500px;
+    height: 650px;
     position: relative;
-    background-image: url(../images/fighter.jpg);
+    background-image: url(../images/main-images/fighter.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -290,7 +292,7 @@ p.nav-link:hover {
 
     /* This part of is credited to Front End Resource  Url(https://frontendresource.com/css-background-image-color/) */
 
-    background: url(../images/facts-image.jpg) no-repeat 0, 0 #054b5f;
+    background: url(../images/main-images/facts.jpg) no-repeat 0, 0 #e6dbdb;
     background-blend-mode: multiply;
 
     /*   End  her */
@@ -344,6 +346,10 @@ p.nav-link:hover {
 
 .student-name span {
     margin-left: 5%;
+}
+.student-name img {
+    opacity: 0.5;
+    background-color: #d40b0b;
 }
 
 /* --------------------Footer----------------------- */
@@ -424,7 +430,7 @@ p.nav-link:hover {
 
 .bjj-image {
     grid-area: 3/ 1/5/13;
-    background: url(../images/bjj-sm-bg.jpg) no-repeat 0, 0 #3b3333;
+    background: url(../images/main-images/bjj-sm.jpg) no-repeat 0, 0 #e6dbdb;
     background-blend-mode: multiply;
     background-size: 100% 100%;
 }
@@ -435,7 +441,7 @@ p.nav-link:hover {
 
 .boxing-image {
     grid-area: 7/ 1/ 9/13;
-    background: url(../images/boxing-sm-bg.jpg) no-repeat 0, 0 #3b3333;
+    background: url(../images/main-images/boxing-sm.jpg) no-repeat 0, 0 #e6dbdb;
     background-blend-mode: multiply;
     background-size: 100% 100%;
 }
@@ -446,7 +452,7 @@ p.nav-link:hover {
 
 .muaythai-image {
     grid-area: 11/ 1/ 13/13;
-    background: url(../images/muaythai-sm-bg.jpg) no-repeat 0, 0 #3b3333;
+    background: url(../images/main-images/muaythai-sm.jpg) no-repeat 0, 0 #e6dbdb;
     background-blend-mode: multiply;
     background-size: 100% 100%;
 }
@@ -459,7 +465,7 @@ p.nav-link:hover {
 
 .mma-image {
     grid-area: 15/ 1/ 17/13;
-    background: url(../images/mma.jpg) no-repeat 0, 0 #3b3333;
+    background: url(../images/main-images/mma-sm.jpg) no-repeat 0, 0 #e6dbdb;
     background-blend-mode: multiply;
     background-size: 100% 100%;
 }
@@ -550,6 +556,7 @@ p.nav-link:hover {
     .margin-top {
         margin-top: 50px;
     }
+
     /* Navbar */
     .navmenu {
         margin-left: 1vw;
@@ -559,7 +566,8 @@ p.nav-link:hover {
 
     /* Banner */
     .banner-area {
-        background-image: url(../images/header-img.jpg);
+        height:600px;
+        background-image: url(../images/main-images/header-img.jpg);
     }
 
     .main-heading {
@@ -604,10 +612,11 @@ p.nav-link:hover {
         margin-left: 5%;
         margin-top: 2%;
     }
+
     /* Lessons */
-      /* Font for all the Paragraphs in lessons section for medium and big screen  */
+    /* Font for all the Paragraphs in lessons section for medium and big screen  */
     .text-lessons {
-        font-family: 'Exo' , sans-serif;
+        font-family: 'Exo', sans-serif;
     }
 
 }
@@ -615,6 +624,10 @@ p.nav-link:hover {
 @media(min-width: 576px) and (max-width:992px) {
 
     /* Lessons */
+
+    .lessons-container {
+        background-color: #c23131;
+    }
     .text-lessons {
         text-align: justify;
     }
@@ -629,20 +642,31 @@ p.nav-link:hover {
     }
 
     .bjj-image {
-        background: url(../images/bjj-md.jpg) no-repeat 0, 0 #e9e2e2;
+        background: url(../images/main-images/bjj-md.jpg) no-repeat 0, 0 #e6dbdb;
         background-size: 100% 100%;
+        margin-bottom: 30px;
     }
 
     .boxing-image {
-        background: url(../images/boxing-md.jpg) no-repeat 0, 0 #e9e2e2;
+        background: url(../images//main-images/boxing-md.jpg) no-repeat 0, 0 #e6dbdb;
         background-size: 100% 100%;
+        margin-bottom: 30px;
     }
 
     .muaythai-image {
-        background: url(../images/muaythai-md.jpg) no-repeat 0, 0 #e9e2e2;
+        background: url(../images/main-images/muaytahi-md.jpg) no-repeat 0, 0 #e6dbdb;
         background-blend-mode: multiply;
         background-size: 100% 100%;
+        margin-bottom: 30px;
     }
+
+    .mma-image {
+        background: url(../images/main-images/mma-md.jpg) no-repeat 0, 0 #e6dbdb;
+        background-blend-mode: multiply;
+        background-size: 100% 100%;
+        margin-bottom: 30px;
+    }
+
 
     .info {
         margin: 2% 0;
@@ -650,7 +674,9 @@ p.nav-link:hover {
 
 
 }
+
 @media(max-width:992px) {
+
     /* navbar */
     .btn-members-login {
         display: none;
@@ -660,14 +686,14 @@ p.nav-link:hover {
 
 
 @media(min-width:770px) and (max-width:991px) {
-    
-    
-     .navmenu {
+
+
+    .navmenu {
         margin-left: 4vw;
         margin-right: 4vw;
     }
 
-} 
+}
 
 
 @media(min-width:992px) {
@@ -679,12 +705,17 @@ p.nav-link:hover {
 
     /* Navbar */
 
-     .login{
+    .login {
         display: none;
-    } 
+    }
+
     .navmenu {
         margin-left: 6vw;
         margin-right: 8vw;
+    }
+
+    .banner-area {
+        margin-top: 50px;
     }
 
     /* Warning */
@@ -826,3 +857,11 @@ p.nav-link:hover {
     }
 
 }
+
+@media(min-width:1400px) {
+    .banner-area {
+        height: 800px;
+    }
+}
+
+  
