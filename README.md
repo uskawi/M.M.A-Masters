@@ -201,23 +201,6 @@ The website has been tested on Chrome, Vivaldi, Opera, Edge, Firefox, and Intern
 ![explorer image](assets/images/readme-images/footer-in-ie.jpg)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Validator Testing
 
 ### HTML Testing
