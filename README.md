@@ -1,5 +1,3 @@
-
-
 # M.M.A MASTERS
 
 The project's primary goal is to expand the online presence from only three social media: Facebook, Twitter, and Youtube, to a website targeting a more significant number of potential customers, and make The M.M.A Masters a well-known icon among mixed martial art enthusiasts, which will lead to an increase in the volume of business. The Academy is located in Dublin city center and provides various martial arts classes: Brazilian Ju-Jitsu, Boxing, Muay Thai. The website's main target is martial arts fans, people who want to learn self-defense, and people who want to get fit.
@@ -10,22 +8,22 @@ The website is divided into three separate pages: a home page, a lessons page,  
 The home page contains a Header that is composed of a navbar and banner. The main section includes a warning, welcome section, facts section, and testimonial section, and at the bottom of the page, there is a  Footer. 
 The lessons page contains a navbar, lessons overview section, lessons section, warning, and equipment section. At the bottom of the page, there is a  Footer.
 The contact page contains a navbar, contact section, opening hours section, and at the bottom of the page, there is a  Footer.
-#### The Navigation Bar
+## The Navigation Bar
 
 
 ![Navigation menue](assets/images/readme-images/navbar.jpg)
 
-Featured on all three pages, build in Bootsrap fully responsive, includes links to the Logo, Home page,  links to other two pages, and a Button for members login only visible on a big screen with min-width 992px. On smaller screens, the navigation item has replaced the Button. The navigation bar is identical on each page to allow for easy Navigation.
-The Navigation bar will permit the user to find what he is looking for in an easy way.
+Featured on all three pages, build in Bootsrap fully responsive, includes  a Logo,and links to  Home page,  lessons page, contact page, login, and a   Button for members login only visible on a big screen with min-width 992px. On smaller screens, the navigation item login has replaced the Button. The navigation bar is identical on each page to allow easy Navigation.
+The Navigation bar will permit the user to find what he is looking for easily.
 
-#### The Footer
+### The Footer
 
 ![Footer](assets/images/readme-images/footer-sm.jpg)
 
 The Footer is located at the bottom of every page of the website.
 The Footer links the website to social media and contains a general information email address, phone number, address, and copyrights.
 
-####  Warning 
+### Warning 
 
 ![warning](assets/images/readme-images/warning.jpg)
 
@@ -33,23 +31,23 @@ The warning informs the user of the possiblity of  booking a free trial class an
 
 ### Home page
 
-#### Banner
+### Banner
 
-##### The banner image that aperars on screen with max-widht of 576px
+### The banner image that aperars on screen with max-widht of 576px
 
 ![Banner image](assets/images/readme-images/banner-sm.jpg)
 
-##### The banner image that aperars on screen with min-widht of 576px
+### The banner image that aperars on screen with min-widht of 576px
 
 ![Banner image](assets/images/readme-images/Banner.jpg)
 
 The Banner contains a background image and a heading.  This section was designed to capture a visitor's interest and encourage staying on the website for further browsing. 
 
-#### Welcome section
+### Welcome section
 
 Welcome Section is composed of the primary heading and a welcoming paragraph that describes M.M.A Masters Akademy and the benefits of becoming a member. The same Section also contains three different subsections philosophy subsections that describe the academy's ideology, Focus subsection, which tells your primary focus as a member; Mission Subsection, which represents the academy's mission.
 
-#### Facts Section
+### Facts Section
 
 ![facts image](assets/images/readme-images/facts.jpg)
 
@@ -63,11 +61,11 @@ The testimonial section is composed of the testimonial's heading and the student
  
 ### lessons page 
 
-#### Lessons Overview
+### Lessons Overview
 
 Lessons overview contains a heading and general description of available classes. 
 
-#### Lessons
+### Lessons
 
 ![lessons](assets/images/readme-images/classes.jpg)
 
@@ -79,21 +77,21 @@ Lessons overview contains a heading and general description of available classes
 
  ### Cantact page
 
- #### Contact section
+ ### Contact section
 
  ![Contact form](assets/images/readme-images/contact.jpg)
 
 The contact section is composed of a heading and a form that asks the user for contact information, name, email, and a text area to provide a message. This section allows the user to contact the customer service department directly for any queries. This section aims to improve customer service and communication. 
 
-#### Opening hours section
+### Opening hours section
 
 The opening hours section is composed of heading and text. this section was designed to inform the user about the opening hours of the gym without the need to contact the customer service.
 
-#### Login
+### Login
 
 ![login form](assets/images/readme-images/login.jpg)
 
-Login is triggered by clicking on Member Login Button on the screens with a minimum width of 992  px. On a smaller screen, the login appearson  a navbar as one of the options.
+Login is triggered by clicking on Member Login Button on the screens with a minimum width of 992  px. On a smaller screen, the login appears on  a navbar as one of the options.
 
 ### Features Left to Implement
 1. An online shop of MMA equipment.
@@ -110,11 +108,11 @@ Extensive testing was performed to ensure that the website works the way that it
 The Navbar is fully responsive, built-in bootstrap, and heavily modified to suit the user's needs.  
 The sticky  Navbar that consistently maintains the menu anchored while users are scrolling avoids having to scroll up to get to the bar when they want to browse other sections. The Navbar contains the logo with a link to the main page and five menu items: Home, lessons, contact, login, and button for member login. The first three items in Navbar are dedicated to each page of the website. Both the login button and login item are triggering the login box to appear on the screen. All these features implemented in Navbar aim to help users quickly access all information that the website offers. In screens with min-width 992px,the button is visible, and the login item is hidden. In screens with max-width 992px the button is hidden, and the login item is visible; 
 
- Image displaying the Navbar on screens screens with min-width 576px
+ Image displaying the Navbar on screens screens with max-width 576px
 
 ![navbar](assets/images/readme-images/navbar-sm.jpg)
 
- Image displaying the navbar on screensscreens with max-width 576 
+ Image displaying the navbar on screensscreens with min-width 576 
 
 ![navbar](assets/images/readme-images/navbar.jpg)
 
@@ -139,7 +137,7 @@ The warning on screens with max-width 992 px takes 90% of screen width. On-scree
 
 ### Main Page
 
-#### Banner
+### Banner
 
 The Banner is the most visible part of the landing page where the visitors usually land, creating a focus point, capturing visitors' interest, and encouraging staying on the website for further browsing.
 The Banner contains a heading overlaying the banner image. The image and the hading are changing with the screen width.
@@ -153,10 +151,10 @@ Image displaying the banner on screens with min-widht 576 px.
 
 ![Banner](assets/images/readme-images/Banner.jpg)
 
-# Welcome Section
+### Welcome Section
 
-It is not immediately apparent to the user what the website is about; The welcome section makes sure that he clearly understands the purpose of the website.It is not immediately apparent to the users what the website is about; The welcome section makes sure that he clearly understands the website's purpose. And also, it tells the  users in as few words as possible what they can find and achieve on the website.
-The Welcome Section is build using CSS Grid, and it's fully responsive to all screen sizes.
+It is not immediately apparent to the users what the website is about; The welcome section makes sure they clearly understands the website's purpose. And also, it tells the  users in as few words as possible what they can find and achieve on the website.
+The Welcome Section comprises four subsections. Build using CSS Grid, t's fully responsive to all screen sizes.
 In screens with max-width 576px every subsection take 100% of screen width.
 In screens with max-width 992px, the Welcome subsection take 100% of screen width. the Philosophy and Focus subsections are located below the welcome subsection and take 50% of screen width each. The Mission subsection is located below the Philosophy and Focus sections in the middle of the screen and takes one-third of the screen width.
 In screens with a min-width 992 px, the Welcome subsection takes 100% of screen width. The Philosophy, Focus, and Mission subsections are located below the welcome subsection and take one-third of the screen width each.
@@ -164,7 +162,7 @@ In screens with a min-width 992 px, the Welcome subsection takes 100% of screen 
 ### Facts Section
 
 The fact section contains text quoting positive facts about the business and overlays a background image. This section aims to give the user a positive feeling and to encourage them to further browsing.
-the image is responsive; its height changes with the width of the screen to make sure that all the section content stays inside the section frames  
+the image is responsive; its height changes with the width of the screen to allows that all the section content stays inside the section frames  
 
 ![facts image](assets/images/readme-images/facts.jpg)
 
@@ -177,7 +175,7 @@ Testimonial Section is fundamental from the business point of view that's why it
 
 ### Lessons  Section
 
-The lesson's section was created to attract a more significant number of recipients by showing the possibility of choosing a martial art class to the predispositions of potential future school students. It arouses various age groups' interests well as multiple environments. To attract attention, photos differ and change according to the screen size. 
+The lesson's section was created to attract a more significant number of recipients by showing the possibility of choosing a martial art class to the predispositions of potential future school students. It arouses various age groups interests well as multiple environments. To attract attention, photos differ and change according to the screen size. 
 This section is build using a CSS Grid, and it's fully responsive. In screens, with max-width 992 px, the lessons section takes 100% of the screen width, and every lesson starts by heading with a lesson's name and text with the description, which takes 100% of screen width. Then, below the text, there is  a lesson's image, which also takes 100% of the screen width.
 On-screen, with a min-width of 992px, the image and the description text are horizontally beside each other on the same height and combined take 90% of the screen width with a margin of 5% on the left and the right.
 
@@ -188,7 +186,7 @@ The contact section contains a form with all the basics necessary to contact the
 ### Opening Hours
 Opening Hours section helps deliver a personalized customer experience without wasting the user's time or waiting without proper communication. The customer is well informed about the opening hours. 
 
-#### Login
+### Login
 
 ![login form](assets/images/readme-images/login.jpg)
 
@@ -196,7 +194,7 @@ Login is triggered by clicking on Member Login Button on the screens with a mini
 
 ### Browser Testing
 
-The website has been tested on Chrome, Vivaldi, Opera, Edge, Firefox, and Internet explorer. No problems were found on any of them exclude Explorer. The issue was to be a lack of support on the Internet Explorer for the CSS grid. The image below represents the website on internet explorer.
+The website has been tested on Chrome, Vivaldi, Opera, Microsoft Edge, Firefox, and Internet Explorer. No problems were found on any of them exclude Explorer. The issue was to be a lack of support on the Internet Explorer for the CSS grid. The image below represents the image of the Footer  on Internet Explorer.
 
 ![explorer image](assets/images/readme-images/footer-in-ie.jpg)
 
@@ -229,7 +227,7 @@ The errors on the positions 12, 13 on the image above were caused by placing the
 
 The error on position 1 on the image above was caused by placing a class margin-top-big defined in style.css  us a value for an id inside section's tag in HTML file. The class was removed and placed inside a div below the section's tag to fix the error.
 The errors on positions 2, 3 on the image above were caused by
-giving the value of the name to type attribute inside the input tag. To fix these errors, the values of type attributes were changed to text.
+giving the value of the name to type attributes inside the input tag. To fix these errors, the values of type attributes were changed to text.
 The two errors on position 4, 6 and the warning on position 5 on the image above were caused by a similar id value inside the member login button (the modal) and the contact form located on the contact page.
 The fix for the errors was changing the value of each id
 
@@ -237,7 +235,7 @@ The fix for the errors was changing the value of each id
 
 The error on the image above was fixed by removing the end of paragraph tag, which was not on the scope.
 
-##### Al bugs inside html file were fixed 
+### Al bugs inside html file were fixed 
 
 ![html no bugs](assets/images/readme-images/html-test.jpg)
 
@@ -248,15 +246,22 @@ The testing was performed on the V3C CSS validator by direct input before deploy
 
 ![html testing img](assets/images/readme-images/css-testing.jpg)
 
-All the bugs found in the CSS file were caused by improper use of the function repeat() while designing the layout using the CSS grid. The function was written repeat(Number of row or column, fr) instead of repeat(Number of row or column, 1fr), but the design worked in the browser. The errors were found during the validation in the V3C validator.  When the correct form of the repeat function was used (repeat(Number of row or column, 1fr)), the layout of the sections designed in the CSS grid completely changed. The final fix for the issue was using auto (repeat(Number of row or column, auto)) instead of fractional unit.
+All the bugs found in the CSS file were caused by improper use of the function repeat() while designing the layout using the CSS grid. The function was written **repeat(Number of row or column, fr)** instead of **repeat(Number of row or column, 1fr)**, but the design worked in the browser. The errors were found during the validation in the V3C validator.  When the correct form of the repeat function was used __repeat(Number of row or column, 1fr)__, the layout of the sections designed in the CSS grid completely changed. The final fix for the issue was the use auto **(repeat(Number of row or column, auto)** instead of fractional unit.
 
 ![explorer image](assets/images/readme-images/cssdebug.jpg)
 
-### Unfixed Bugs
+
+### Unfixed bugs
+
+After adding the last commit, I decided to add some changes to the website. And change the previous commit message and also few older commit messages, but a bug prevented me from doing it. The image below shows the message on the terminal.
+
+![terminal](assets/images/readme-images/terminal.jpg)
 
 After deploying the website end performing a CSS check in the V3C CSS validator, the following errors and warnings appeared,which are caused by the bootstrap library.
 
-![explorer image](assets/images/readme-images/bootsrap-errors.jpg)
+![explorer image](assets/images/readme-images/terminal.jpg)
+
+After a session with a tutor, the bug was still not fixed , But we could find a way around to open the repository in a new workspace.
 
 ## Deployment
 
@@ -304,14 +309,5 @@ The part of the code in the image bellow was obtained from the frontendresource 
 ### Content 
 
 The text for the Home page Welcome section and the text for lessons page for the lessons overview section and  lessons section  was taken from   https://evolve-mma.com/classes/
-
-
-
-
-
-
-
-
-
 
 

@@ -625,9 +625,6 @@ p.nav-link:hover {
 
     /* Lessons */
 
-    .lessons-container {
-        background-color: #c23131;
-    }
     .text-lessons {
         text-align: justify;
     }
@@ -644,27 +641,23 @@ p.nav-link:hover {
     .bjj-image {
         background: url(../images/main-images/bjj-md.jpg) no-repeat 0, 0 #e6dbdb;
         background-size: 100% 100%;
-        margin-bottom: 30px;
     }
 
     .boxing-image {
         background: url(../images//main-images/boxing-md.jpg) no-repeat 0, 0 #e6dbdb;
         background-size: 100% 100%;
-        margin-bottom: 30px;
     }
 
     .muaythai-image {
         background: url(../images/main-images/muaytahi-md.jpg) no-repeat 0, 0 #e6dbdb;
         background-blend-mode: multiply;
         background-size: 100% 100%;
-        margin-bottom: 30px;
     }
 
     .mma-image {
         background: url(../images/main-images/mma-md.jpg) no-repeat 0, 0 #e6dbdb;
         background-blend-mode: multiply;
         background-size: 100% 100%;
-        margin-bottom: 30px;
     }
 
 
